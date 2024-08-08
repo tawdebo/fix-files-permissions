@@ -14,13 +14,13 @@ Use the command pwd to find the path to the current folder (directory).
 
 # To change permissions for folders:
 
-```find /path/to/current/directory/ -type d -exec chmod 755 {} \;
+`find /path/to/current/directory/ -type d -exec chmod 755 {} \;`
 
 In the command above, you should replace /path/to/current/directory/ with the actual path from Step 3.
 
 # To change permissions for files:
 
-```find /path/to/current/directory/ -type f -exec chmod 644 {} \;
+`find /path/to/current/directory/ -type f -exec chmod 644 {} \;`
 
 In the command above, you should replace /path/to/current/directory/ with the actual path from Step 3.
 You'll see a message confirming the changes were successful.
