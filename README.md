@@ -1,4 +1,4 @@
-# fix-files-permissions
+# Fix wordpress Files and Folders permissions
 fix files and folder permissions after migration 
 
 
